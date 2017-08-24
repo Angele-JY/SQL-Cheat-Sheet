@@ -34,7 +34,7 @@ BEGIN
 END
 GO
 
---Check if the table already exist in the database, if it exist then will drop the table.
+--Check if the store procedure already exist in the database, if it exist then will drop the store procedure.
 --Reason to do that: So the stored procedure create script will be configurable/rerunable
 --N, implies that you're converting the next string to a nchar, nvarchar or nvarchar2 (depending on RDBMS)
 --P stands for traditional stored procedure (SQL)
